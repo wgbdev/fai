@@ -1,1 +1,1 @@
-dpkg-buildpackage -I.git -rfakeroot -uc -us ${1} ${2}
+dpkg-buildpackage -I.git -rfakeroot -uc -us -d ${1} ${2}
