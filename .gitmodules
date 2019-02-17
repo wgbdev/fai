@@ -1,5 +1,0 @@
-[submodule "fai-config"]
-	path = examples/simple
-	url = https://github.com/faiproject/fai-config.git
-	ignore = all
-	branch = .
