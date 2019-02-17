@@ -20,7 +20,7 @@ libfiles=$(filter-out $(EXCL),$(wildcard lib/[a-z]*))
 
 all:
 	$(MAKE) syntaxcheck
-#	$(MAKE) -C doc all
+	$(MAKE) -C doc all
 
 syntaxcheck: bashismcheck shellcheck perlcheck
 
